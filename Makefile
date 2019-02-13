@@ -7,7 +7,8 @@ JC = javac
 CLASSES = Learning.java \
 	  Pivot.java \
 	  BubbleSort.java \
-	  InsertionSort.java
+	  InsertionSort.java \
+	  BinarySearchTree.java
 
 default: classes
 
