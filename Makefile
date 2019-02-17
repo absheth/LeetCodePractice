@@ -1,4 +1,4 @@
-JFLAGS = -g
+JFLAGS = -g# -cp .
 JC = javac
 .SUFFIXES: .java .class
 .java.class:
@@ -10,7 +10,7 @@ CLASSES = Learning.java \
 	  InsertionSort.java \
 	  BinarySearchTree.java \
 	  StringPermutation.java \
-	  Stack.java \
+	  packageClass/Stack.java \
 	  TryStack.java
 
 default: classes
@@ -18,4 +18,5 @@ default: classes
 classes: $(CLASSES:.java=.class)
 
 clean:
-	$(RM) *.class
+	$(RM) *.class packageClass/*.class
+

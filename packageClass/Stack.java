@@ -1,4 +1,4 @@
-package code_practice;
+package packageClass;
 public class Stack {
     class Node {
         int data;
