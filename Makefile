@@ -8,7 +8,10 @@ CLASSES = Learning.java \
 	  Pivot.java \
 	  BubbleSort.java \
 	  InsertionSort.java \
-	  BinarySearchTree.java
+	  BinarySearchTree.java \
+	  StringPermutation.java \
+	  Stack.java \
+	  TryStack.java
 
 default: classes
 
