@@ -5,18 +5,18 @@ JC = javac
 	$(JC) $(JFLAGS) $*.java
 
 CLASSES = Learning.java \
-	  Pivot.java \
-	  BubbleSort.java \
-	  InsertionSort.java \
-	  BinarySearchTree.java \
-	  StringPermutation.java \
-	  packageClass/Stack.java \
-	  TryStack.java
+		  BubbleSort.java \
+		  InsertionSort.java \
+		  BinarySearchTree.java \
+		  StringPermutation.java \
+		  packageClass/Stack.java \
+		  TryStack.java \
+		  leet-code/Pivot.java
 
 default: classes
 
 classes: $(CLASSES:.java=.class)
 
 clean:
-	$(RM) *.class packageClass/*.class
+	$(RM) *.class packageClass/*.class leet-code/*.class
 
