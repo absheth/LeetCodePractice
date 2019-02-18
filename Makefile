@@ -12,7 +12,8 @@ CLASSES = Learning.java \
 		  packageClass/Stack.java \
 		  TryStack.java \
 		  leet-code/Pivot.java \
-		  leet-code/LargestNumberAtLeastTwiceofOthers.java
+		  leet-code/LargestNumberAtLeastTwiceofOthers.java \
+		  leet-code/PlusOneArray.java
 
 default: classes
 
