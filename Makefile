@@ -11,7 +11,8 @@ CLASSES = Learning.java \
 		  StringPermutation.java \
 		  packageClass/Stack.java \
 		  TryStack.java \
-		  leet-code/Pivot.java
+		  leet-code/Pivot.java \
+		  leet-code/LargestNumberAtLeastTwiceofOthers.java
 
 default: classes
 
