@@ -13,12 +13,17 @@ CLASSES = Learning.java \
 		  TryStack.java \
 		  leet-code/Pivot.java \
 		  leet-code/LargestNumberAtLeastTwiceofOthers.java \
-		  leet-code/PlusOneArray.java
+		  leet-code/PlusOneArray.java \
+		  leet-code/FindBottomLeftTreeValue.java \
+		  try/TryInner.java
 
 default: classes
 
 classes: $(CLASSES:.java=.class)
 
 clean:
-	$(RM) *.class packageClass/*.class leet-code/*.class
+	$(RM) *.class \
+		packageClass/*.class \
+		leet-code/*.class \
+		try/*.class
 
